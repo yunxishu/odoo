@@ -51,3 +51,9 @@ package.json
 /man/
 /share/
 /src/
+
+/addons-ext
+/addons-sys
+/odoo-data
+/volumes
+/docker-compose.yml
