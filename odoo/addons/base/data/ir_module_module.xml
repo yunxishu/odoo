@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-<!-- 移除OEEL-1许可的插件-->
+<!--
 <!--        <record model="ir.module.module" id="base.module_web_studio">-->
 <!--            <field name="name">web_studio</field>-->
 <!--            <field name="shortdesc">Studio</field>-->
