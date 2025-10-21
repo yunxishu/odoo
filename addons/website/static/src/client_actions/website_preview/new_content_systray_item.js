@@ -184,11 +184,11 @@ export class NewContentSystrayItem extends Component {
     get sortedNewContentElements() {
         return this.state.newContentElements
             .filter(({ status }) => status !== MODULE_STATUS.NOT_INSTALLED)
-            .concat(
-                this.state.newContentElements.filter(
-                    ({ status }) => status === MODULE_STATUS.NOT_INSTALLED
-                )
-            )
+            // .concat(
+            //     this.state.newContentElements.filter(
+            //         ({ status }) => status === MODULE_STATUS.NOT_INSTALLED
+            //     )
+            // )
             .filter(el => ('isDisplayed' in el ? el.isDisplayed : user.isSystem));
     }
 
